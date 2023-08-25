@@ -10,6 +10,8 @@ b) The IP address I see from `ipconfig` is my pc's local IP address. This is ass
 The IP address I see on "https://www.whatismyip.com" is my public IP address. This is the address my ISP assigned, and it's used for communication over the Internet.
 ![image](Images/ipconfigb.jpg)
 
+---
+
 Ans2. 
 
 a) Command Used `nslookup -type=NS google.in`  
@@ -26,6 +28,8 @@ b) Command Used `nslookup -debug google.in`
 - The IPv6 address for "google.in" is 2404:6800:4002:823::2004, TTL of 300 seconds (5 minutes).
 
 ![image](Images/nslookup2.jpg)
+
+---
 
 Ans03.   
 a) Command used `tracert google.in`
@@ -46,6 +50,7 @@ d)
 Maximum Latency: 35 ms (from Hop 2)  
 From the ping results:
 Average Latency: 3ms  
+Not Matching.
 - Although already explained in the above part, the ping and traceroute commands provide different insights into network performance. While ping gives an average round-trip time to a destination, traceroute provides a hop-by-hop breakdown of the path taken by packets.   
 
 e) Multiple entries for a single hop in traceroute represent multiple probes sent to the same hop to get a more accurate measurement. Each probe might take a slightly different amount of time, so I see multiple latency values(three in this case).
@@ -73,6 +78,8 @@ h)
 
 - Server Response Time: The responsiveness of the server itself can also impact latency. Google's servers are optimized for high performance and can handle a large number of requests efficiently. In contrast, specific servers at Stanford University might be under higher load or not as optimized, leading to slightly longer response times.
 
+---
+
 Ans04. ping command fail for 127.0.0.1 (with 100% packet loss)
 
 - Achieving this in linux environment is pretty easy by adding an entry in iptables for localhost
@@ -90,6 +97,8 @@ Source: [Answer on SuperUser by dakkaron](https://superuser.com/questions/111888
 
 Clumsy: [Clumsy](https://github.com/jagt/clumsy)
 
+---
+
 Ans05
 Command used:  
 `telnet 192.168.24.12 9900`  
@@ -100,6 +109,8 @@ Command used:
 
 ![image](Images/05_secretkey.jpg)  
 
+
+--- 
 Ans06  
 Command used: `telnet 192.168.24.12 smtp`  
 
@@ -108,6 +119,10 @@ My Inputs:
 
 The email was sent successfully and the mail was received in my friend's inbox:  
 ![image](Images/06_mail.jpg)
+
+---
+
+>Ankit Kumar, 2021015
 
 
 
