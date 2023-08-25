@@ -53,7 +53,7 @@ Average Latency: 3ms
 Not Matching.
 - Although already explained in the above part, the ping and traceroute commands provide different insights into network performance. While ping gives an average round-trip time to a destination, traceroute provides a hop-by-hop breakdown of the path taken by packets.   
 
-e) Multiple entries for a single hop in traceroute represent multiple probes sent to the same hop to get a more accurate measurement. Each probe might take a slightly different amount of time, so I see multiple latency values(three in this case).
+e) Multiple entries for a single hop in traceroute represent multiple probes sent to the same hop to get a more accurate measurement. Each probe might take a slightly different amount of time, so I see multiple latency values(three in this case). The three round trips time is in milliseconds. it tells us how long it tool packet to get from me to that ipaddress/server and then back to me(latency between two systems)
 
 f) 
 ![image](Images/ping_standford.jpg)
