@@ -27,7 +27,8 @@ b) Command Used `nslookup -debug google.in`
 
 ![image](Images/nslookup2.jpg)
 
-Ans03. Command used `tracert google.in`
+Ans03.   
+a) Command used `tracert google.in`
 
 ![image](Images/tracert.jpg)
 
@@ -90,4 +91,23 @@ Source: [Answer on SuperUser by dakkaron](https://superuser.com/questions/111888
 Clumsy: [Clumsy](https://github.com/jagt/clumsy)
 
 Ans05
+Command used:  
+`telnet 192.168.24.12 9900`  
+`GET /secret HTTP/1.1`
+`Host: 192.168.24.12`
+
+>secret key: U2FsdGVkX19+x/ug4M1wFYXRji8I6qmUgHOsKtqWGQAeiQ/Xy1Zmg5uKbUbOBO5P
+
+![image](Images/05_secretkey.jpg)  
+
+Ans06  
+Command used: `telnet 192.168.24.12 smtp`  
+
+My Inputs:  
+![image](Images/06_input.jpg)
+
+The email was sent successfully and the mail was received in my friend's inbox:  
+![image](Images/06_mail.jpg)
+
+
 
