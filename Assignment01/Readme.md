@@ -1,6 +1,9 @@
 # CSE 232 : Assignment 1
 ## Command Line Utilities
 
+> assignment link: https://github.com/pnl-iiitd/CSE232-iiitd/tree/main/assignment_1
+ 
+
 Ans1. Command Used `ipconfig` 
 
 a)![image](Images/ipconfig.jpg)
